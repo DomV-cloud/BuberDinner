@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Api", "BuberDinner.Api\BuberDinner.Api.csproj", "{8012543F-B6A0-4426-9EF1-E69FE1804393}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{F9DAF4C7-B0B1-40D7-8F06-AFC2FEE4B731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Contracts", "BuberDinner.Contracts\BuberDinner.Contracts.csproj", "{5DB844A1-FDC0-4D31-8633-1C015831AB80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{8012543F-B6A0-4426-9EF1-E69FE1804393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8012543F-B6A0-4426-9EF1-E69FE1804393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8012543F-B6A0-4426-9EF1-E69FE1804393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB844A1-FDC0-4D31-8633-1C015831AB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB844A1-FDC0-4D31-8633-1C015831AB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB844A1-FDC0-4D31-8633-1C015831AB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB844A1-FDC0-4D31-8633-1C015831AB80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +43,8 @@ Global
 		{34B07E99-2B67-4229-94B0-83FC31E05207} = {3C321689-AC7F-45E0-9ECB-62EA8ED49385}
 		{EE3A60E9-5169-4FA3-A319-7200CB895B1A} = {3C321689-AC7F-45E0-9ECB-62EA8ED49385}
 		{8012543F-B6A0-4426-9EF1-E69FE1804393} = {FF128A03-5A5F-44DD-98C8-F2E7522C2706}
+		{F9DAF4C7-B0B1-40D7-8F06-AFC2FEE4B731} = {FF128A03-5A5F-44DD-98C8-F2E7522C2706}
+		{5DB844A1-FDC0-4D31-8633-1C015831AB80} = {F9DAF4C7-B0B1-40D7-8F06-AFC2FEE4B731}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A051F182-9C84-403B-B0A2-0AFDD203D3CD}
