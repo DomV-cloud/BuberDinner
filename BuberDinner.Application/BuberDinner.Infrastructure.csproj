@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BuberDinner.Contracts\BuberDinner.Contracts.csproj" />
     <ProjectReference Include="..\BuderDinner.Application\BuderDinner.Application.csproj" />
   </ItemGroup>
 
