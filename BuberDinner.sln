@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Infrastructure"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Domain", "BuberDinner.Domain\BuberDinner.Domain.csproj", "{D8701BC0-C434-46A5-A1FD-84A8E30EC746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuderDinner.Application", "BuderDinner.Application\BuderDinner.Application.csproj", "{D1BA54B7-ED6D-4438-8A75-1E8E5478E13C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Application", "BuderDinner.Application\BuberDinner.Application.csproj", "{D1BA54B7-ED6D-4438-8A75-1E8E5478E13C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

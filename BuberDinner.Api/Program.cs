@@ -1,4 +1,4 @@
-using BuberDinner.Infrastructure.Services.Authentication;
+using BuberDinner.Application.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 {
@@ -6,9 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 
-    builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+    builder.Services.AddApplication();
 }
-
 
 var app = builder.Build();
 
