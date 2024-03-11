@@ -1,4 +1,4 @@
-﻿namespace BuberDinner.Infrastructure.Services.Authentication
+﻿namespace NetGlade.Infrastructure.Services.Authentication
 {
     public record AuthenticationResult
     (

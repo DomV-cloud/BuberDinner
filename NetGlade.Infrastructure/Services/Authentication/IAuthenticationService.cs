@@ -1,6 +1,6 @@
-﻿using BuberDinner.Contracts.Authentication;
+﻿using NetGlade.Contracts.Authentication;
 
-namespace BuberDinner.Infrastructure.Services.Authentication
+namespace NetGlade.Infrastructure.Services.Authentication
 {
     public interface IAuthenticationService
     {

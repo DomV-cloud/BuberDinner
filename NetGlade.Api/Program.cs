@@ -1,5 +1,5 @@
-using BuberDinner.Application.DependencyInjection;
-using BuberDinner.Infrastructure.DependencyInjection;
+using NetGlade.Infrastructure.DependencyInjection;
+using NetGlade.Application.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuberDinner.Contracts.Authentication
+namespace NetGlade.Contracts.Authentication
 {
     /// <summary>
     /// Record - is good to use for readonly use-cases, like data tranfer (DTO)

@@ -1,8 +1,8 @@
-﻿using BuberDinner.Contracts.Authentication;
-using BuberDinner.Infrastructure.Services.Authentication;
+﻿using NetGlade.Contracts.Authentication;
+using NetGlade.Infrastructure.Services.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BuberDinner.Api.Controllers
+namespace NetGlade.Api.Controllers
 {
     [ApiController]
     [Route("auth")]

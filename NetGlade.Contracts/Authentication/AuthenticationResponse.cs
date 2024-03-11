@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuberDinner.Contracts.Authentication
+namespace NetGlade.Contracts.Authentication
 {
-    public record LoginRequest
+    public record AuthenticationResponse
     (
         string FirstName,
         string LastName,
         string Email,
-        string Password
-    );
+        string Token
+     );
 }

@@ -14,9 +14,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\BuberDinner.Infrastructure\BuberDinner.Infrastructure.csproj" />
-		<ProjectReference Include="..\BuberDinner.Contracts\BuberDinner.Contracts.csproj" />
-		<ProjectReference Include="..\BuderDinner.Application\BuberDinner.Application.csproj" />
+		<ProjectReference Include="..\NetGlade.Application\NetGlade.Application.csproj" />
+		<ProjectReference Include="..\NetGlade.Infrastructure\NetGlade.Infrastructure.csproj" />
+		<ProjectReference Include="..\NetGlade.Contracts\NetGlade.Contracts.csproj" />
 	</ItemGroup>
 
 </Project>

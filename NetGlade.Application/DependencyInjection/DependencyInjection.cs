@@ -1,11 +1,11 @@
-﻿using BuberDinner.Infrastructure.Services.Authentication;
+﻿using NetGlade.Infrastructure.Services.Authentication;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BuberDinner.Infrastructure.DependencyInjection
+namespace NetGlade.Application.DependencyInjection
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+        public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddScoped<IAuthenticationService, AuthenticationService>();
 
